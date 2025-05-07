@@ -73,6 +73,11 @@ theme: { extend: {} },
 plugins: [],
 In src/index.css or App.css:
 
+//enviroment variable used mongodb atlas
+.env
+ MongoDB_URL=mongodb+srv://pandaya7070:jgjNOf4IGrOww2W0@cluster0.ofji3gb.mongodb.net/blog?retryWrites=true&w=majority&appName=Cluster0
+PORT=8080
+
 css
 Copy
 Edit
