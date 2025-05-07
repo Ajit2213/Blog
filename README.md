@@ -86,6 +86,8 @@ In the backend/ directory:
 bash
 Copy
 Edit
+
+
 npm init -y
 npm install express mongoose cors dotenv
 📁 .env Example
@@ -94,12 +96,17 @@ Copy
 Edit
 PORT=5000
 MONGO_URL=your_mongo_connection_string
+
+
 📁 Example Folder Structure
 models/Post.js: Mongoose schema
 
 routes/postRoutes.js: CRUD routes
 
 server.js: Main Express server
+
+
+
 
 🔗 API Endpoints (Example)
 GET /app/v1/all – Get all posts
@@ -111,6 +118,10 @@ POST /app/v1/create/ – Create post
 PUT /app/v1/update/:id – Update post
 
 DELETE /app/v1/delete/:id – Delete post
+
+
+
+
 
 🔄 Running the App
 Frontend:
